@@ -9,7 +9,7 @@
 		"last 10 versions"
 	],
 	"license": "MIT",
-	"homepage": "sulleimenov.github.io/repository-name",
+	"homepage": "sulleimenov.github.io/ksu",
 	"scripts": {
 		"start": "gulp",
 		"dev": "gulp build",

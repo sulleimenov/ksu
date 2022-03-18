@@ -1,0 +1,55 @@
+.container-с
+	padding-left: 15px
+	padding-right: 15px
+	margin: 0 auto
+	max-width: 1140px
+
+.text, .text-warning, .text-danger
+		padding: 15px 20px
+		border-radius: 5px
+.text
+	background-color: #D8F3C8
+.text-warning
+	background-color: #F8DD87
+.text-danger
+	background-color: #FFCCCC
+.text-danger--center
+	text-align: center
+
+.template-content
+	@include media-breakpoint-down(md)
+		padding: 0
+
+.template-content a
+	@include link
+.news-entry-container a
+	@include link
+
+.img-link
+	border-bottom: none!important
+
+.text-under
+	position: relative
+	margin-bottom: 24px
+	span
+		position: absolute
+		bottom: -15px
+		left: 0
+		font-size: 12px
+		color: #ababab
+
+.current
+	background-color: $blueLink!important
+	color: #fff!important
+
+.ya-share2
+	margin-top: 30px!important
+	&__list
+		margin-bottom: 0!important
+		padding-left: 0!important
+	&__item::before
+		width: 0!important
+		height: 0!important
+		background-color: transparent!important
+	&__link
+		border-bottom: none!important

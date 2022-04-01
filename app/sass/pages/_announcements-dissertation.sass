@@ -2,10 +2,34 @@
 	&__item
 		padding-bottom: 25px
 		margin-bottom: 25px
-		border-bottom: 1px solid #ECEBEB
+		border: 1px solid #ECEBEB
+		border-radius: 5px
+		padding: 20px
 	&__title
 		font-weight: 700
 		margin-bottom: 10px
+	&__info
+		display: flex
+		justify-content: space-between
+	&__date
+		display: flex
+		align-items: center
+		font-size: 12px
+		color: $gray
+		margin-bottom: 10px
+		&>.icon
+			display: inline-block
+			background-image: url(../img/icons/teeny/text-document.svg)
+			background-position: left center
+			background-repeat: no-repeat
+			width: 15px
+			height: 15px
+			margin-bottom: 3px
+			margin-right: 5px
+	&__link
+		font-size: 12px
+		color: $gray!important
+		border-bottom: none!important
 	&__anons
 		margin-bottom: 20px
 	&__docs:not(.show)

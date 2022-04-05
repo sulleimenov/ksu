@@ -1,0 +1,54 @@
+.first-leaders
+	&__item
+		display: grid
+		grid-template-columns: repeat(12, 1fr)
+		gap: 30px
+		margin-bottom: 100px
+		&:last-child
+			margin-bottom: 0
+		@include media-breakpoint-down(sm)
+			gap: 10px
+			margin-bottom: 40px
+	&__persons
+		grid-column: 3 span
+		text-align: center
+		position: sticky
+		top: 30px
+		height: max-content
+		margin-bottom: 15px
+		@include media-breakpoint-down(md)
+			grid-column: 4 span
+		@include media-breakpoint-down(sm)
+			grid-column: 12 span
+			position: static
+	&__descr
+		grid-column: 9 span
+		+content
+		@include media-breakpoint-down(md)
+			grid-column: 8 span
+		@include media-breakpoint-down(sm)
+			grid-column: 12 span
+	&__image
+		display: flex
+		align-items: center
+		justify-content: center
+		width: 250px
+		height: 315px
+		border-radius: 5px
+		margin-bottom: 15px
+		overflow: hidden
+		@include media-breakpoint-down(lg)
+			width: auto
+			height: 100%
+	&__name
+		font-size: 16px
+		font-weight: 700
+		margin-bottom: 10px
+		@include media-breakpoint-down(md)
+			font-size: 14px
+	&__years
+		color: $gray
+		margin-bottom: 8px
+	&__post
+		color: $gray
+		font-size: 12px

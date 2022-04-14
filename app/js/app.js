@@ -15,7 +15,7 @@ Swiper.use([Navigation, Pagination, Autoplay])
 document.addEventListener('DOMContentLoaded', () => {
 	gsap.registerPlugin(ScrollTrigger)
 	gsap.config({ nullTargetWarn: false })
-	
+	console.log($);
 	// Анимация блоков на главной странице
 	function navigation() {
 		const tl = gsap.timeline({
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		preloadImages: false,
 		autoHeight: true,
 		allowTouchMove: false,
-		speed: 700,
+		speed: 500,
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: false
@@ -380,6 +380,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		var accordion = new Accordion($('#accordion'), false);
 	}
 
+	function records() {
+		Fancybox.bind("[data-fancybox]", {
+			
+		});
+	}
+
 	// init
 
 	// popupCallCenter()
@@ -390,6 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	searchButton()
 	infographics()
 	accardionMain()
+	records()
 
 	$('img').parent().addClass('img-link')
 

@@ -1,0 +1,27 @@
+.erasmus-project
+	&__lists
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		gap: 30px
+		@include media-breakpoint-down(md)
+			grid-template-columns: repeat(2, 1fr)
+		@include media-breakpoint-down(sm)
+			grid-template-columns: repeat(1, 1fr)
+	&__item
+		border: 1px solid #ecebeb
+		padding: 30px 20px
+		border-radius: 10px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		text-align: center
+		a
+			display: inline-block
+			margin-top: 30px
+			background-color: #0088CC
+			padding: 10px 5px
+			color: #fff
+			border-radius: 5px
+			transition: all .2s ease
+			&:hover
+				background-color: #006fa7

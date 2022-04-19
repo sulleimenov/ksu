@@ -15,7 +15,6 @@ Swiper.use([Navigation, Pagination, Autoplay])
 document.addEventListener('DOMContentLoaded', () => {
 	gsap.registerPlugin(ScrollTrigger)
 	gsap.config({ nullTargetWarn: false })
-	console.log($);
 	// Анимация блоков на главной странице
 	function navigation() {
 		const tl = gsap.timeline({
@@ -261,15 +260,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	function searchButton() {
 		const searchBtn = document.querySelector('.search')
 		const searchMobileBtn = document.querySelector('.header-top__nav-item--search')
+		const searchContent = document.querySelector('.search-box')
+		const searchInput = document.querySelector('.search-form__input')
 
-		searchBtn.addEventListener('click', function (e) {
-			$('.search-box').toggleClass('show')
-			$(this).toggleClass('search--close')
-			$('.search-form__input').focus()
+		searchBtn.addEventListener('click', function () {
+			searchContent.classList.toggle('show')
+			this.toggle('search--close')
+			searchInput.focus()
 		})
-		searchMobileBtn.addEventListener('click', function (e) {
-			$('.search-box').toggleClass('show')
-			$('.search-form__input').focus()
+		searchMobileBtn.addEventListener('click', function () {
+			searchContent.classList.toggle('show')
+			searchInput.focus()
 		})
 	}
 
@@ -281,20 +282,21 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 
 		// запоминаем начальные значения
-		var textt1 = document.querySelector('.count1').text()
-		var textt2 = document.querySelector('.count2').text()
-		var textt3 = document.querySelector('.count3').text()
-		var textt4 = document.querySelector('.count4').text()
+		let textt1 = document.querySelector('.count1').textContent
+		let textt2 = document.querySelector('.count2').textContent
+		let textt3 = document.querySelector('.count3').textContent
+		let textt4 = document.querySelector('.count4').textContent
 
-		var blockStatus = true
+		let blockStatus = true
 
-		$(window).scroll(function () {
-			var targetTop = target_block.offset().top
-			var targetBottom = targetTop + target_block.outerHeight()
-			var screenTop = $(window).scrollTop()
-			var screenBottom = screenTop + $(window).innerHeight()
+		window.addEventListener('scroll', function () {
+			let targetTop = target_block.offsetTop
+			let targetBottom = targetTop + target_block.offsetHeight
+			console.log(target_block.offsetHeight);
+			let screenTop = window.offsetTop
+			let screenBottom = screenTop + window.innerHeight
 
-			var onScreen = false
+			let onScreen = false
 			if (screenBottom > targetTop && screenTop < targetBottom) {
 				onScreen = true
 			}
@@ -381,9 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function records() {
-		Fancybox.bind("[data-fancybox]", {
-			
-		});
+		Fancybox.bind("[data-fancybox]", {});
 	}
 
 	// init
@@ -404,31 +404,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		$('.menu').toggleClass('active')
 		$('.header__burger').toggleClass('active')
 		$('body').toggleClass('lock')
-	})
-
-	$('.sidebar-button').click(function () {
-		$('.sidebar').toggleClass('sidebar--is-active')
-		$('.sidebar-button').toggleClass('sidebar-button--close')
-	})
-
-	$('.header__video').click(function () {
-		$('.video').addClass('video--is-active')
-	})
-	$('.video__close').click(function () {
-		$('.video').removeClass('video--is-active')
-	})
-	$('.video__close--md').click(function () {
-		$('.video').removeClass('video--is-active')
-	})
-
-	$('.header-nav__item_search').click(function () {
-		$('.modal-search_wrapper').toggleClass('modal-search_wrapper--active')
-		$('.modal-search').toggleClass('modal-search_wrapper--active')
-	})
-
-	$('.modal-search_close, .modal-search').click(function () {
-		$('.modal-search_wrapper').removeClass('modal-search_wrapper--active')
-		$('.modal-search').removeClass('modal-search_wrapper--active')
 	})
 
 	$('.sidebar__list>p>a').click(function () {

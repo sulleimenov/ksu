@@ -31,12 +31,12 @@
 
 @mixin link
 	color: $blueLink
-	transition: all 1s ease
+	transition: color 1s ease
 	text-decoration: none!important
 	border-bottom: 1px solid $blueLink
 	&:hover
-		transition: all 1s ease
-		border-bottom: none
+		transition: color 1s ease
+		border-bottom: 1px solid transparent
 
 @mixin text
 	.text, .text-warning, .text-danger

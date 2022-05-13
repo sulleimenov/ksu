@@ -423,63 +423,6 @@
 		font-size: 16px
 		width: 100%
 
-// Навигация
-.content-nav 
-	margin-top: 50px
-	&__item 
-		display: flex
-		align-items: center
-		justify-content: center
-		@include shadow
-		background-color: #fff
-		width: 100%
-		height: 100px
-		cursor: pointer
-		text-align: center
-		text-transform: uppercase
-		border-radius: 7px
-		position: relative
-		margin-bottom: 30px
-		padding: 0 10px
-		@include media-breakpoint-down(lg)
-			margin-bottom: 40px
-		&:hover 
-			color: #000
-			@include hover 
-		&::before 
-			content: ''
-			position: absolute
-			top: -15px
-			border-radius: 50%
-			right: 0
-			left: 0
-			margin: auto
-			width: 35px
-			height: 35px
-			background-color: #fff 
-		img 
-			margin: 0 auto
-			display: block
-			position: absolute
-			top: -7px
-
-// Инфографика
-.infographic 
-	background-color: #FF2B42
-	color: #ffffff
-	padding: 25px 0
-	text-align: center
-	&__item
-		@include media-breakpoint-down(md)
-			margin: 20px 0
-		@include media-breakpoint-down(xs)
-			margin: 30px 0
-	&__item--black
-		color: $textcolor
-	&__number 
-		font-size: 48px
-		font-weight: 700
-
 // Кнопка call-center
 .call-center
 	height: 28px
@@ -504,3 +447,36 @@
 		background-size: 20px
 		span
 			display: none
+
+.popup-call
+	position: fixed
+	bottom: 40px
+	left: 30px
+	display: inline-block
+	padding: 15px 25px 13px 65px
+	border-radius: 50px
+	color: #fff
+	text-transform: uppercase
+	font-weight: 700
+	font-size: 18px
+	background: #ed336c url(../img/icons/header/phone-call.svg) left 25px center no-repeat
+	box-shadow: 0px 0px 0px 5px rgba(238, 51, 109, 0.2)
+	transition: all 0.5s ease
+	visibility: hidden
+	opacity: 0
+	@include media-breakpoint-down(md)
+		font-size: 15px
+	@include media-breakpoint-down(sm)
+		font-size: 14px
+		background-size: 19px
+		left: 10px
+	&:hover
+		color: #fff
+		background-color: #f42766
+	a
+		color: #fff
+		font-weight: 700
+	&.show
+		transition: all 0.5s ease
+		visibility: visible
+		opacity: 1

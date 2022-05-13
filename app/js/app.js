@@ -3,6 +3,7 @@ import { gsap, Power2 } from 'gsap'
 import { Fancybox } from "@fancyapps/ui"
 import { Swiper, Pagination, Navigation, Autoplay } from 'swiper'
 import { ScrollTrigger } from 'gsap/ScrollTrigger.js'
+import mixitup from 'mixitup'
 
 window.jQuery = $
 window.$ = $
@@ -66,6 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			duration: 0.5,
 		})
 	}
+
+	const mixitupContainer = document?.querySelector('.news__body')
+	let mixer = mixitup(mixitupContainer, {
+		"animation": {
+			"duration": 100,
+			"nudge": false,
+			"reverseOut": false,
+			"effects": ""
+		}
+	});
 
 	// Скрытие анимации popup call center
 	function popupCallCenter() {
@@ -394,7 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	accardions()
 	burgerButton()
 	searchButton()
-	infographics()
+	// infographics()
 	accardionMain()
 	records()
 

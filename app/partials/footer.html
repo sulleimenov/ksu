@@ -1,6 +1,7 @@
 	<a href="tel:87142931010" class="popup-call show">
 		Call center - 8 (7142) 93-10-10
 	</a>
+
 	<div class="search-box">
 		<div class="container">
 			<form action="#" class="search-form">
@@ -8,6 +9,39 @@
 			</form>
 		</div>
 	</div>
+
+	<!-- Поиск -->
+	<div class="modal-search"></div>
+	<div class="modal-search_wrapper">
+		<form action="/search_result" method="GET" class="modal-search_inner">
+			<img src="img/icons/search.svg" class="modal-search_img" alt="Поиск">
+			<input type="text" name="search" placeholder="Поиск..." class="modal-search_input">
+			<div class="modal-search_close">
+				<span></span>
+				<span></span>
+			</div>
+		</form>
+	</div>
+
+	<!-- Модальное окно - Call-Center -->
+	<div style="display: none;" id="callModal" class="call-modal">
+		<div class="call-modal__logo"><img src="img/logo.png" alt="KSU"></div>
+		<div class="call-modal__bg-top"><img src="img/window/bg-top.png" alt="elem1"></div>
+		<ul class="call-modal__list">
+			<li>В целях оперативного решения вопросов по обучению в дистанционном формате необходимо обращаться в Call-центр: <a href="tel:87142931010">8(7142)93-10-10</a></li>
+			<li>Центр методологической поддержки: <a href="tel:87142511120">8(7142)51-11-20</a><br /><a href="tel:87776379785">8(777)637-97-85</a></li>
+			<li>Центр технической поддержки: <a href="tel:87142390190">8(7142)39-01-90</a><br /><a href="tel:87028625717">8(702)862-57-17</a></li>
+			<li>В целях оперативного решения вопросов по учебной работе: <a href="tel:87142511100">8(7142)51-11-00</a></li>
+			<li>По вопросам дистанционного обучения: <a href="tel:87142390630">8(7142)39-06-30</a></li>
+			<li>Центр психологической поддержки и инклюзивного образования: <a href="tel:87772760674">8(777)276-06-74</a></li>
+		</ul>
+		<div class="call-modal__link">
+			<a href="https://www.facebook.com/%D0%9A%D0%93%D0%A3-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-%D0%90%D1%85%D0%BC%D0%B5%D1%82%D0%B0-%D0%91%D0%B0%D0%B9%D1%82%D1%83%D1%80%D1%81%D1%8B%D0%BD%D0%BE%D0%B2%D0%B0-%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82-%D0%B4%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%9F%D0%A0-100112951376605/?ti=as" target="_blank"><img src="img/window/002-facebook.svg" alt="facebook"></a>
+			<a href="https://www.instagram.com/institut_kgu/?igshid=odfce469ty7r" target="_blank"><img src="img/window/001-instagram.svg" alt="instagram"></a>
+		</div>
+		<div class="call-modal__bg-bottom"><img src="img/window/bg-bottom.png" alt="elem2"></div>
+	</div>
+	
 	<footer class="footer">
 		<img src="/img/footer-ksu.png" alt="ksu" class="footer__img">
 		<div class="footer__text">
@@ -15,6 +49,7 @@
 			А.Байтурсынова»
 		</div>
 	</footer>
+	
 	<script src="js/app.min.js"></script>
 </body>
 </html>

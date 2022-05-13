@@ -81,11 +81,11 @@ function styles() {
 		.pipe(sassglob())
 		.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError))
-		.pipe(sourcemaps.write())
 		.pipe(postCss([
 			autoprefixer({ grid: 'autoplace' }),
 			cssnano({ preset: ['default', { discardComments: { removeAll: true } }] })
 		]))
+		.pipe(sourcemaps.write())
 		.pipe(concat('app.min.css'))
 		.pipe(dest('app/css'))
 		.pipe(browserSync.stream())

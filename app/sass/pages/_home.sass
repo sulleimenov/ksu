@@ -43,12 +43,23 @@
 		border-radius: $radius
 		position: relative
 		grid-column: 3 span
+		@include media-breakpoint-down(lg)
+			grid-column: 4 span
+			&:nth-child(4),
+			&:nth-child(5)
+				display: none
+		@include media-breakpoint-down(sm)
+			grid-column: 6 span
 		&:hover
 			.news__lists-image img
 				transform: scale(1.08)
 		&:first-child
 			grid-column: 6 span
 			grid-row: 2 span
+			@include media-breakpoint-down(lg)
+				grid-column: 8 span
+			@include media-breakpoint-down(sm)
+				grid-column: 12 span
 			&>.news__lists-image
 				height: 330px
 			&>.news__lists-text
@@ -69,6 +80,8 @@
 		overflow: hidden
 		border-radius: $radius
 		height: 185px
+		@include media-breakpoint-down(md)
+			height: 140px
 		img
 			transition: all .2s ease
 			transform: scale(1.04)
@@ -84,6 +97,8 @@
 		min-height: 60px
 		padding: 11px 15px
 		background-color: rgba(#fff, .75)
+		@include media-breakpoint-down(md)
+			bottom: 45px
 	&__lists-info
 		display: none
 		justify-content: space-between
@@ -219,6 +234,8 @@
 	display: grid
 	grid-template-columns: repeat(12, 1fr)
 	column-gap: 30px
+	@include media-breakpoint-down(md)
+		grid-row-gap: 30px
 	&__list
 		grid-column: 8 span
 		display: grid
@@ -226,7 +243,9 @@
 		gap: 30px
 		@include media-breakpoint-down(md)
 			grid-column: 12 span
-			grid-template-columns: repeat(3, 1fr)
+		@include media-breakpoint-down(sm)
+			grid-template-columns: repeat(1, 1fr)
+			gap: 15px
 	&__list-item
 		border-radius: $radius
 		padding: 45px 35px
@@ -264,6 +283,8 @@
 		height: 350px
 		@include media-breakpoint-down(lg)
 			height: 290px
+		&:not(.active)
+			display: none
 	&__visual-image
 		display: flex
 		align-items: center
@@ -282,25 +303,37 @@
 	&__info
 		grid-column: 7 span
 		padding-right: 100px
+		@include media-breakpoint-down(md)
+			grid-column: 12 span
+			padding-right: 0
+			margin-bottom: 30px
 	&__title
-		font-size: 48px
+		font-size: 38px
 		font-weight: 700
 		margin-bottom: 40px
 	&__best
 		display: flex
 		align-items: center
 		justify-content: center
-		padding: 115px 140px
+		padding: 115px 50px
 		background-color: $yellow-light
 		border-radius: $radius
 		font-size: 28px
 .infographics-numbers
 	grid-column: 5 span
+	@include media-breakpoint-down(md)
+		grid-column: 12 span
 	&__list
-		display: flex
-		flex-direction: column
+		display: grid
+		grid-template-columns: repeat(1, 1fr)
 		grid-gap: 35px
+		@include media-breakpoint-down(md)
+			grid-template-columns: repeat(2, 1fr)
+		@include media-breakpoint-down(sm)
+			grid-template-columns: repeat(1, 1fr)
 	&__item
+		@include media-breakpoint-down(md)
+			text-align: center
 		span
 			display: block
 			font-size: 48px

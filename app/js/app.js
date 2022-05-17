@@ -78,6 +78,25 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
+	const tourBtn = document?.querySelectorAll('[data-role="tab"]');
+  const tourVisualBtn = document?.querySelectorAll(".tour__visual-item");
+
+	tourBtn.forEach((tab) => {
+		tab.addEventListener("click", () => {
+			const target = document.querySelector(tab.dataset.target);
+			console.log(target);
+			tourVisualBtn.forEach((tc) => {
+				tc.classList.remove("active");
+			});
+			target.classList.add("active");
+
+			tourBtn.forEach((t) => {
+				t.classList.remove("active");
+			});
+			tab.classList.add("active");
+		});
+	});
+
 	// Скрытие анимации popup call center
 	function popupCallCenter() {
 		setTimeout(() => {
@@ -394,7 +413,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function records() {
-		Fancybox.bind("[data-fancybox]", {});
+		Fancybox.bind("[data-fancybox]", {
+			autoFocus: false
+		});
 	}
 
 	// init

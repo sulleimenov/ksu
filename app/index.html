@@ -512,7 +512,7 @@
 		<div class="container">
 			<div class="tour">
 				<div class="tour__list">
-					<div class="tour__list-item active">
+					<div class="tour__list-item active" data-role="tab" data-target="#smart">
 						<div class="tour__list-title">
 							Smart-центр
 						</div>
@@ -520,15 +520,15 @@
 							Реализуем интересные идеи<br>в сферах бизнеса, науки<br>и производства
 						</div>
 					</div>
-					<div class="tour__list-item">
+					<div class="tour__list-item" data-role="tab" data-target="#nii">
 						<div class="tour__list-title">
 							НИИ	
 						</div>
 						<div class="tour__list-descr">
-							Реализуем интересные идеи<br>в сферах бизнеса, науки<br>и производства
+							Научно-исследовательский институт прикладной биотехнологии
 						</div>
 					</div>
-					<div class="tour__list-item">
+					<div class="tour__list-item" data-role="tab" data-target="#engener">
 						<div class="tour__list-title">
 							Инжиниринговый центр
 						</div>
@@ -538,9 +538,19 @@
 					</div>
 				</div>
 				<div class="tour__visual">
-					<a class="tour__visual-item" href="#">
+					<a class="tour__visual-item active" href="#" id="smart" role="tabpanel" data-fancybox>
 						<div class="tour__visual-image">
-							<img src="/img/icons/teeny/3d.svg" alt="alt">
+							<img src="/img/icons/teeny/3d.svg" alt="3D">
+						</div>
+					</a>
+					<a class="tour__visual-item" href="https://ksu.edu.kz/nii3d/biotech.html" id="nii" role="tabpanel" data-fancybox>
+						<div class="tour__visual-image">
+							<img src="/img/icons/teeny/3d.svg" alt="3D">
+						</div>
+					</a>
+					<a class="tour__visual-item" href="https://youtube.com/watch?v=UtHOiPz8qrM" id="engener" role="tabpanel" data-fancybox>
+						<div class="tour__visual-image">
+							<img src="/img/icons/teeny/video-play.svg" alt="Play">
 						</div>
 					</a>
 				</div>

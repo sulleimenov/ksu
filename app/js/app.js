@@ -304,6 +304,23 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+	const number = document.querySelectorAll('.infographics-numbers__item > span');
+	const numberTop = number.getBoundingClientRect().top;
+	const	start = +number.innerHTML, end = +number.dataset.max;
+
+	window.addEventListener('scroll', function onScroll() {
+		console.log(numberTop);
+		if(window.pageYOffset > numberTop - window.innerHeight / 2) {
+			this.removeEventListener('scroll', onScroll);
+			var interval = setInterval(function() {
+				number.innerHTML = ++start;
+				if(start == end) {
+					clearInterval(interval);
+				}
+			}, 5);
+		}
+	});
+
 	function infographics() {
 		let target_block = document.querySelector('.infographic') // Ищем блок
 

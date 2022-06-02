@@ -1,0 +1,1066 @@
+{
+	"timestamp": 1654151402,
+	"videos": [
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "xMpbJOcj2h3U5hDHhfMdfR1H_kA",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS41NkI0NEY2RDEwNTU3Q0M2",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0438\u0439 \u0438 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b",
+				"description": "\u041f\u043e \u043f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u044e \u0413\u043b\u0430\u0432\u044b \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0430 \u0441\u043e\u0433\u043b\u0430\u0441\u043d\u043e \u043f\u0440\u0438\u043a\u0430\u0437\u0430 \u041c\u0438\u043d\u0438\u0441\u0442\u0440\u0430 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u043d\u0430\u0443\u043a\u0438 \u0420\u041a \u0441 1 \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044f 2021 \u0433\u043e\u0434\u0430 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u044b \u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0438\u0438 \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432, \u043c\u0430\u0433\u0438\u0441\u0442\u0440\u0430\u043d\u0442\u043e\u0432 \u0438 \u0434\u043e\u043a\u0442\u043e\u0440\u0430\u043d\u0442\u043e\u0432, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u043d\u0430\u044f \u043f\u043b\u0430\u0442\u0430 \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u0435\u0439.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ehDcyrQjPaY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ehDcyrQjPaY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ehDcyrQjPaY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/ehDcyrQjPaY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/ehDcyrQjPaY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 0,
+				"resourceId": { "kind": "youtube#video", "videoId": "ehDcyrQjPaY" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "MZgICvVOvfejpfEuIGchg5qNwCc",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4yODlGNEE0NkRGMEEzMEQy",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u00abQ&A\u00bb (\u0412\u043e\u043f\u0440\u043e\u0441/\u043e\u0442\u0432\u0435\u0442)",
+				"description": "\u041a\u043e  \u0414\u043d\u044e \u0443\u0447\u0438\u0442\u0435\u043b\u044f \u043c\u044b \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u0438\u043b\u0438 \u0441\u043f\u0435\u0446\u0432\u044b\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u00abQ&A\u00bb\n\n\u0412 \u044d\u0442\u043e\u043c \u0440\u043e\u043b\u0438\u043a\u0435 \u043f\u0440\u0438\u043d\u044f\u043b\u0438 \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u043e\u0434\u043d\u0438 \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u0443\u0437\u043d\u0430\u0432\u0430\u0435\u043c\u044b\u0445, \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0445 \u0438 \u0433\u043e\u0440\u044f\u0447\u043e \u043b\u044e\u0431\u0438\u043c\u044b\u0445 \u0441\u0440\u0435\u0434\u0438 \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432 \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u0438.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/w8rgB_XF_m4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/w8rgB_XF_m4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/w8rgB_XF_m4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/w8rgB_XF_m4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/w8rgB_XF_m4/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 1,
+				"resourceId": { "kind": "youtube#video", "videoId": "w8rgB_XF_m4" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "2iwH0JxTW452Vj2vwpRrg_CoG3c",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4wMTcyMDhGQUE4NTIzM0Y5",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0418\u0442\u043e\u0433\u0438 \u043e\u0442\u0447\u0435\u0442\u043d\u043e\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0438 \u0440\u0435\u043a\u0442\u043e\u0440\u0430",
+				"description": "\u041f\u0440\u0435\u0434\u0441\u0435\u0434\u0430\u0442\u0435\u043b\u044c \u041f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f-\u0440\u0435\u043a\u0442\u043e\u0440 \u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439\u0441\u043a\u043e\u0433\u043e \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430 \u0438\u043c. \u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u0432\u0430 \u0410\u043b\u043c\u0430 \u0414\u043e\u0449\u0430\u043d\u043e\u0432\u0430 \u043e\u0442\u0447\u0438\u0442\u0430\u043b\u0430\u0441\u044c  \u043f\u0435\u0440\u0435\u0434 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043e\u043c \u0432\u0443\u0437\u0430,  \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430\u043c\u0438, \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044f\u043c\u0438  \u0438 \u0436\u0438\u0442\u0435\u043b\u044f\u043c\u0438 \u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u0437\u0430 \u043f\u0440\u043e\u0448\u0435\u0434\u0448\u0438\u0439 \u0443\u0447\u0435\u0431\u043d\u044b\u0439 \u0433\u043e\u0434. \u0412\u0441\u0442\u0440\u0435\u0447\u0430 \u043f\u0440\u043e\u0448\u043b\u0430 \u0432 \u0440\u0435\u0436\u0438\u043c\u0435 \u043e\u043d\u043b\u0430\u0439\u043d, \u0438 \u0442\u0440\u0430\u043d\u0441\u043b\u0438\u0440\u043e\u0432\u0430\u043b\u0430\u0441\u044c \u043f\u043e \u0432\u0441\u0435\u043c \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430\u043c \u0432\u0443\u0437\u0430 \u2013 Instagram, Facebook.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/BF-N9l5PhMQ/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/BF-N9l5PhMQ/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/BF-N9l5PhMQ/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/BF-N9l5PhMQ/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/BF-N9l5PhMQ/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 2,
+				"resourceId": { "kind": "youtube#video", "videoId": "BF-N9l5PhMQ" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "s5fdxyXg9hceLTfJRuKN-iD372k",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS41MjE1MkI0OTQ2QzJGNzNG",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0438 \u041b\u0438\u0442\u0432\u0430 \u0441\u0442\u0430\u043b\u0438 \u0431\u043b\u0438\u0436\u0435",
+				"description": "\u0412 \u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439\u0441\u043a\u043e\u043c \u0420\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u043c \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0435 \u0438\u043c. \u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430 \u0441\u043e\u0441\u0442\u043e\u044f\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u041c\u0435\u043c\u043e\u0440\u0430\u043d\u0434\u0443\u043c\u0430  \u0441  \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u043e\u043c  \u0412\u0438\u0442\u0430\u0443\u0442\u0430\u0441\u0430 \u0412\u0435\u043b\u0438\u043a\u043e\u0433\u043e (Vytautas Magnus University, \u041a\u0430\u0443\u043d\u0430\u0441, \u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430).  \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043b\u0438 \u0440\u0435\u043a\u0442\u043e\u0440 \u0410\u043b\u043c\u0430 \u0414\u043e\u0449\u0430\u043d\u043e\u0432\u0430 \u0438  \u0421\u0430\u0443\u043b\u044e\u0441 \u041c\u0438\u0446\u043a\u044f\u0432\u0438\u0447\u044e\u0441 -  \u0434\u043e\u043a\u0442\u043e\u0440 \u043d\u0430\u0443\u043a, \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u043e\u0440, \u0434\u0435\u043a\u0430\u043d \u0444\u0430\u043a\u0443\u043b\u044c\u0442\u0435\u0442\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043d\u0430\u0443\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442  \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442  \u0412\u0438\u0442\u0430\u0443\u0442\u0430\u0441\u0430 \u0412\u0435\u043b\u0438\u043a\u043e\u0433\u043e \u2013 \u0432\u0443\u0437\u0430 \u0441 100-\u043b\u0435\u0442\u043d\u0435\u0439 \u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/X-9VJpgUl-w/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/X-9VJpgUl-w/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/X-9VJpgUl-w/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 3,
+				"resourceId": { "kind": "youtube#video", "videoId": "X-9VJpgUl-w" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "o0GALd-OaAHwq5O5QUTvkBcJLQo",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4wOTA3OTZBNzVEMTUzOTMy",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041e \u041a\u0420\u0423.",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Lgy9T2wU9bo/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Lgy9T2wU9bo/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Lgy9T2wU9bo/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Lgy9T2wU9bo/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Lgy9T2wU9bo/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 4,
+				"resourceId": { "kind": "youtube#video", "videoId": "Lgy9T2wU9bo" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "S-1Bi9DLxq_juweU7rtL4T7FJK8",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4xMkVGQjNCMUM1N0RFNEUx",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041f\u044f\u0442\u044b\u0439 \u0434\u0435\u043d\u044c \u0441\u0434\u0430\u0447\u0438 \u0415\u041d\u0422 \u043d\u0430 \u0431\u0430\u0437\u0435 \u041a\u0420\u0423 \u0438\u043c.\u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430",
+				"description": "\u0421\u044a\u0435\u043c\u043a\u0430 Baitursynov University\n\u041c\u043e\u043d\u0442\u0430\u0436: inst: @samidossov",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/sX8RlwrRXR0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/sX8RlwrRXR0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/sX8RlwrRXR0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/sX8RlwrRXR0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/sX8RlwrRXR0/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 5,
+				"resourceId": { "kind": "youtube#video", "videoId": "sX8RlwrRXR0" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "AmKEMuLM8zEM-iYk1yHWuEIUhag",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS41MzJCQjBCNDIyRkJDN0VD",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u044b\u0439 \u0434\u0435\u043d\u044c \u0415\u041d\u0422 \u043d\u0430 \u0431\u0430\u0437\u0435 \u041a\u0420\u0423 \u0438\u043c.\u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/W2LMQKGEpPY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/W2LMQKGEpPY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/W2LMQKGEpPY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/W2LMQKGEpPY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/W2LMQKGEpPY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 6,
+				"resourceId": { "kind": "youtube#video", "videoId": "W2LMQKGEpPY" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "ZjyVGwitlIIouIQ5vZlFGW85C64",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5DQUNERDQ2NkIzRUQxNTY1",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0422\u0440\u0435\u0442\u0438\u0439 \u0434\u0435\u043d\u044c \u0441\u0434\u0430\u0447\u0438 \u0415\u041d\u0422 \u043d\u0430 \u0431\u0430\u0437\u0435 \u041a\u0420\u0423 \u0438\u043c.\u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Gwr10Njkn-E/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Gwr10Njkn-E/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Gwr10Njkn-E/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Gwr10Njkn-E/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Gwr10Njkn-E/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 7,
+				"resourceId": { "kind": "youtube#video", "videoId": "Gwr10Njkn-E" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "sYd9xuHjvZ_wQmq_z1Rhqqup9GY",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS45NDk1REZENzhEMzU5MDQz",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0412\u0442\u043e\u0440\u043e\u0439 \u0434\u0435\u043d\u044c \u0441\u0434\u0430\u0447\u0438 \u0415\u041d\u0422 \u043d\u0430 \u0431\u0430\u0437\u0435 \u041a\u0420\u0423 \u0438\u043c.\u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/J859IKTb01Q/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/J859IKTb01Q/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/J859IKTb01Q/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 8,
+				"resourceId": { "kind": "youtube#video", "videoId": "J859IKTb01Q" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "b8BQ0tTCEEkPe6PMV6bab3TXmeM",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5GNjNDRDREMDQxOThCMDQ2",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0414\u0435\u043d\u044c \u0415\u041d\u0422 \u043d\u0430 \u0431\u0430\u0437\u0435 \u041a\u0420\u0423 \u0438\u043c. \u0410.\u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/JzY-VuU8qNM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/JzY-VuU8qNM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/JzY-VuU8qNM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/JzY-VuU8qNM/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/JzY-VuU8qNM/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 9,
+				"resourceId": { "kind": "youtube#video", "videoId": "JzY-VuU8qNM" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "O6Y8EQORXwgrDnLcGpjvwpGXmE8",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS40NzZCMERDMjVEN0RFRThB",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "Baitursynov University - \u0431\u043e\u043b\u044c\u0448\u0430\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u044f \u043f\u043e \u041a\u0420\u0423 \u0438\u043c. \u0410.\u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430 (\u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439)",
+				"description": "\u041c\u044b \u0440\u0430\u0441\u0441\u043a\u0430\u0436\u0435\u043c \u043e \u043d\u0430\u0448\u0438\u0445 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442\u0430\u0445, \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0431\u0430\u0437\u0435, \u043f\u043e\u043a\u0430\u0436\u0435\u043c \u043d\u0430\u0448\u0438 \u043a\u043e\u0440\u043f\u0443\u0441\u044b \u0438 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438.\n\u0412\u044b\u0431\u0438\u0440\u0430\u0439 \u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439\u0441\u043a\u0438\u0439 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c. \u0410.\u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430\n\n\u0421\u044a\u0435\u043c\u043a\u0430 \u0438 \u041c\u043e\u043d\u0442\u0430\u0436: inst: @samidossov",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/LjSts2ZBkIY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/LjSts2ZBkIY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/LjSts2ZBkIY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 10,
+				"resourceId": { "kind": "youtube#video", "videoId": "LjSts2ZBkIY" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "PHGmVv1HVwHP7ZkLAJlnypfbZYI",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5EMEEwRUY5M0RDRTU3NDJC",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043f\u0440\u043e\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0415\u041d\u0422-2020. \u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439\u0441\u043a\u0438\u0439 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/6NP3VMQxAv8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/6NP3VMQxAv8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/6NP3VMQxAv8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/6NP3VMQxAv8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/6NP3VMQxAv8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 11,
+				"resourceId": { "kind": "youtube#video", "videoId": "6NP3VMQxAv8" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "oI8P7xPvARvHiUAdkwtD4NH6YbA",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS45ODRDNTg0QjA4NkFBNkQy",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u041e \u0414\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f\u0445 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f. \u0421\u0442\u0443\u0434\u0435\u043d\u0442\u044b \u0438 \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u0438 \u041a\u0420\u0423 \u0438\u043c. \u0410. \u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ymsGSyuuuRQ/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ymsGSyuuuRQ/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ymsGSyuuuRQ/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/ymsGSyuuuRQ/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/ymsGSyuuuRQ/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 12,
+				"resourceId": { "kind": "youtube#video", "videoId": "ymsGSyuuuRQ" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "Ewe5snYnipS3jHuE8oZm0G-9-0g",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4zMDg5MkQ5MEVDMEM1NTg2",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0411\u0430\u043d\u043d\u0435\u0440\u044b \u041a\u0413\u0423, \u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439",
+				"description": "\u041e \u0442\u043e\u043c, \u043a\u0442\u043e \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d \u043d\u0430 \u043d\u0430\u0448\u0438\u0445 \u0431\u0430\u043d\u043d\u0435\u0440\u0430\u0445 \u043f\u043e \u0432\u0441\u0435\u043c\u0443 \u0433\u043e\u0440\u043e\u0434\u0443",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/qS90w24Nzsg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/qS90w24Nzsg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/qS90w24Nzsg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/qS90w24Nzsg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/qS90w24Nzsg/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 13,
+				"resourceId": { "kind": "youtube#video", "videoId": "qS90w24Nzsg" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "640XSff-cc5NPOTH8yoTWZ3Tz3U",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS41Mzk2QTAxMTkzNDk4MDhF",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0412\u044b\u043f\u0443\u0441\u043a\u043d\u0438\u043a\u0438 Baitursynov University \u043e \u0441\u0432\u043e\u0435\u043c \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u0437\u0432\u043e\u043d\u043a\u0435",
+				"description": "\u041e\u0431 \u0443\u0447\u0438\u0442\u0435\u043b\u044f\u0445, \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044f\u0445 \u0438 \u0448\u043a\u043e\u043b\u0435",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/sM4zHqWI_SM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/sM4zHqWI_SM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/sM4zHqWI_SM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/sM4zHqWI_SM/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/sM4zHqWI_SM/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 14,
+				"resourceId": { "kind": "youtube#video", "videoId": "sM4zHqWI_SM" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "2IZFNngqvWjk3zP7AGPr4ZgS71Q",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5EQUE1NTFDRjcwMDg0NEMz",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "Baitursynov University - PROMO",
+				"description": "\u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439\u0441\u043a\u0438\u0439 \u0420\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c. \u0410.\u0411\u0430\u0439\u0442\u0443\u0440\u0441\u044b\u043d\u043e\u0432\u0430 - \u0432\u044b\u0431\u043e\u0440, \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u044e\u0449\u0438\u0439 \u0441\u0432\u0435\u0442\u043b\u043e\u0435 \u0431\u0443\u0434\u0443\u0449\u0435\u0435",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/B4UI1r7UB90/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/B4UI1r7UB90/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/B4UI1r7UB90/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/B4UI1r7UB90/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/B4UI1r7UB90/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 15,
+				"resourceId": { "kind": "youtube#video", "videoId": "B4UI1r7UB90" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "7r2c9AAw8k5RHEZIwBB2oPrG1aA",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS41QTY1Q0UxMTVCODczNThE",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0420\u043e\u043b\u0438\u043a \u041a\u041c\u0423 \u0414\u041e\u0422\u043a\u0430\u0437",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ACGznL2hIto/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ACGznL2hIto/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ACGznL2hIto/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/ACGznL2hIto/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/ACGznL2hIto/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 16,
+				"resourceId": { "kind": "youtube#video", "videoId": "ACGznL2hIto" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "KW6plL03qcFaySpgj9zIkHc8S7o",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4yMUQyQTQzMjRDNzMyQTMy",
+			"snippet": {
+				"publishedAt": "2021-10-25T10:54:24Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0420\u043e\u043b\u0438\u043a \u041a\u0413\u0423",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/H5keVGeXk48/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/H5keVGeXk48/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/H5keVGeXk48/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/H5keVGeXk48/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/H5keVGeXk48/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 17,
+				"resourceId": { "kind": "youtube#video", "videoId": "H5keVGeXk48" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "5NtC5dh2zrQzcQER4aCH_EHKang",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS45RTgxNDRBMzUwRjQ0MDhC",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:01:42Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0420\u043e\u043b\u0438\u043a \u041a\u0413\u0423",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/BnktL9fve-k/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/BnktL9fve-k/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/BnktL9fve-k/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/BnktL9fve-k/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/BnktL9fve-k/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 18,
+				"resourceId": { "kind": "youtube#video", "videoId": "BnktL9fve-k" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "xjZ29U3wrwJZ4K9K5zWby0vukCI",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5ENDU4Q0M4RDExNzM1Mjcy",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:07:50Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "Project CLASS Erasmus+ by Oct",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/p2C7gP2FsxU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/p2C7gP2FsxU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/p2C7gP2FsxU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/p2C7gP2FsxU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/p2C7gP2FsxU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 19,
+				"resourceId": { "kind": "youtube#video", "videoId": "p2C7gP2FsxU" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "-u_tcsiSx1wdtZKWX3IrFrF8pEY",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4yMDhBMkNBNjRDMjQxQTg1",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:08:12Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "CLASS project from KSU,KZ",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/-g3eYWbHJ64/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/-g3eYWbHJ64/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/-g3eYWbHJ64/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/-g3eYWbHJ64/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/-g3eYWbHJ64/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 20,
+				"resourceId": { "kind": "youtube#video", "videoId": "-g3eYWbHJ64" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "L__FYDl6P9xTiBkG32cofejUSIQ",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5GM0Q3M0MzMzY5NTJFNTdE",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:09:28Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0412\u043e\u0435\u043d\u043d\u0430\u044f \u043a\u0430\u0444\u0435\u0434\u0440\u0430",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/rj_ZquCFDXw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/rj_ZquCFDXw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/rj_ZquCFDXw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 21,
+				"resourceId": { "kind": "youtube#video", "videoId": "rj_ZquCFDXw" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "YynRnjRFpTcC2b570hnmb7k30T4",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS4zRjM0MkVCRTg0MkYyQTM0",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:11:04Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "Green Logistics in KSU",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/-oII_luZs9c/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/-oII_luZs9c/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/-oII_luZs9c/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/-oII_luZs9c/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/-oII_luZs9c/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 22,
+				"resourceId": { "kind": "youtube#video", "videoId": "-oII_luZs9c" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "mFZL9aSmL8dUUr8JoZP941C0e_4",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS45NzUwQkI1M0UxNThBMkU0",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:11:50Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0420\u043e\u043b\u0438\u043a \u041a\u041c\u0423 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u044f",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/hgso2NB2m74/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/hgso2NB2m74/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/hgso2NB2m74/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/hgso2NB2m74/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/hgso2NB2m74/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 23,
+				"resourceId": { "kind": "youtube#video", "videoId": "hgso2NB2m74" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "q8F6d4Hw8zviXhbjB3YgGoVght4",
+			"id": "UEw0S01MeGJRV2lXODNwb0k2dWx0T1REUGotZjdraC0wdS5DNzE1RjZEMUZCMjA0RDBB",
+			"snippet": {
+				"publishedAt": "2021-10-25T11:11:57Z",
+				"channelId": "UCizkYrzD1lRPrikyNhCSPHQ",
+				"title": "\u0420\u043e\u043b\u0438\u043a \u041a\u0413\u0423 \u043f\u0440\u0438\u0451\u043c\u043d\u0430\u044f \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u044f",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Qf7tAUOK1Jk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Qf7tAUOK1Jk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Qf7tAUOK1Jk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Qf7tAUOK1Jk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Qf7tAUOK1Jk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"playlistId": "PL4KMLxbQWiW83poI6ultOTDPj-f7kh-0u",
+				"position": 24,
+				"resourceId": { "kind": "youtube#video", "videoId": "Qf7tAUOK1Jk" },
+				"videoOwnerChannelTitle": "Baitursynov University \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+				"videoOwnerChannelId": "UCizkYrzD1lRPrikyNhCSPHQ"
+			}
+		}
+	],
+	"$ytDataFile": "/home/admin/web/ksu.edu.kz/public_html/templates/ksu/php/partials/yt-data.json"
+}

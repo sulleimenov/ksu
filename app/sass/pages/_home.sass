@@ -25,15 +25,13 @@
 				height: 2px
 				background-color: $accent
 	// &__header-links
-		
 	&__header-link
 		// padding: 10px 0
 		border-bottom: 1px solid $textcolor
 		&:not(.is-active)
 			display: none
 	&__body
-		padding-top: 30px
-		padding-bottom: 70px
+		padding: 30px 0
 	&__lists
 		display: grid
 		grid-template-columns: repeat(12, 1fr)
@@ -197,6 +195,8 @@
 		width: 100%
 		height: 100%
 
+.navigation
+	padding: 30px 0
 .navigation-list
 	display: grid
 	grid-template-columns: repeat(3, 1fr)
@@ -296,46 +296,278 @@
 		animation: float-3d 2s infinite alternate
 		animation-timing-function: ease-in-out
 
-.infographics-grid
+// .infographics-grid
+// 	display: grid
+// 	grid-template-columns: repeat(12, 1fr)
+// 	column-gap: 30px
+// 	&__info
+// 		grid-column: 7 span
+// 		padding-right: 100px
+// 		@include media-breakpoint-down(md)
+// 			grid-column: 12 span
+// 			padding-right: 0
+// 			margin-bottom: 30px
+// 	&__title
+// 		font-size: 38px
+// 		font-weight: 700
+// 		margin-bottom: 40px
+// 	&__best
+// 		display: flex
+// 		align-items: center
+// 		justify-content: center
+// 		background-color: $yellow-light
+// 		border-radius: $radius
+// 		font-size: 28px
+// 		overflow: hidden
+// 	&__video
+// 		width: 100%
+
+// .infographics-numbers
+// 	grid-column: 5 span
+// 	@include media-breakpoint-down(md)
+// 		grid-column: 12 span
+// 	&__list
+// 		display: grid
+// 		grid-template-columns: repeat(1, 1fr)
+// 		grid-gap: 35px
+// 		@include media-breakpoint-down(md)
+// 			grid-template-columns: repeat(2, 1fr)
+// 		@include media-breakpoint-down(sm)
+// 			grid-template-columns: repeat(1, 1fr)
+// 	&__item
+// 		@include media-breakpoint-down(md)
+// 			text-align: center
+// 		span
+// 			display: block
+// 			font-size: 48px
+// 			font-weight: 700
+// 			color: $accent
+
+.views
 	display: grid
-	grid-template-columns: repeat(12, 1fr)
-	column-gap: 30px
-	&__info
-		grid-column: 7 span
-		padding-right: 100px
+	grid-template-columns: repeat(2, 1fr)
+	grid-auto-rows: 500px
+	padding: 30px 0
+	@include media-breakpoint-down(lg)
+		grid-auto-rows: 400px
+	@include media-breakpoint-down(xs)
+		grid-auto-rows: 250px
+	&__video
+		grid-column-start: 1
+		grid-column-end: 3
+		position: relative
 		@include media-breakpoint-down(md)
-			grid-column: 12 span
-			padding-right: 0
-			margin-bottom: 30px
-	&__title
-		font-size: 38px
-		font-weight: 700
-		margin-bottom: 40px
-	&__best
+			grid-column-end: 3
+		&::after
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			background-color: rgba(#000, .5)
+	&__video-title
+		position: absolute
+		top: 50%
+		left: 12%
+		transform: translateX(-12%)
+		transform: translateY(-50%)
+		color: #fff
+		width: 500px
+		text-align: center
+		font-size: 21px
+		z-index: 10
+		font-family: 'Roboto Condensed', sans-serif
+		@include media-breakpoint-down(lg)
+			left: 6%
+			font-size: 18px
+		@include media-breakpoint-down(md)
+			display: none
+	&__video-author
+		margin-top: 20px
+		text-transform: uppercase
+		letter-spacing: 2px
+	// &__video-play
+	&__video-link
+		position: absolute
+		cursor: pointer
+		z-index: 10
+		top: 50%
+		right: 22%
+		transform: translateX(-22%)
+		transform: translateY(-50%)
+		width: 127px
+		height: 127px
+		border-radius: 50%
+		border: 3px solid #fff
+		background-image: url('../img/icons/play-bg.svg')
+		background-repeat: no-repeat
+		background-position: center
+		@include media-breakpoint-down(md)
+			left: 0
+			right: 0
+			margin: 0 auto
+			width: 100px
+			height: 100px
+			background-size: 20px
+		@include media-breakpoint-down(sm)
+			width: 70px
+			height: 70px
+			background-size: 15px
+	&__video-bg
+		object-fit: cover
+		width: 100%
+		height: 100%
+	&__tour
 		display: flex
 		align-items: center
 		justify-content: center
-		padding: 115px 50px
-		background-color: $yellow-light
-		border-radius: $radius
-		font-size: 28px
-.infographics-numbers
-	grid-column: 5 span
-	@include media-breakpoint-down(md)
-		grid-column: 12 span
-	&__list
-		display: grid
-		grid-template-columns: repeat(1, 1fr)
-		grid-gap: 35px
+		background-color: #FFD600
+		position: relative
 		@include media-breakpoint-down(md)
-			grid-template-columns: repeat(2, 1fr)
-		@include media-breakpoint-down(sm)
-			grid-template-columns: repeat(1, 1fr)
-	&__item
-		@include media-breakpoint-down(md)
-			text-align: center
-		span
+			grid-column-start: auto
+			grid-column-end: auto
+		&--smart
+			background-color: #00A2C3
+	&__tour-image
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		overflow: hidden
+		picture, img
 			display: block
-			font-size: 48px
-			font-weight: 700
-			color: $accent
+			object-fit: cover
+			width: 100%
+			height: 100%
+			transition: all .2s ease
+		&::after
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			background-color: rgba(#FFD600, .5)
+		&--smart
+			&::after
+				background-color: rgba(#00A2C3, .5)
+		&:hover
+			&>picture
+				transform: scale(1.04)
+				transition: all .2s ease
+	&__tour-title
+		z-index: 10
+		color: #fff
+		font-size: 21px
+		text-align: center
+		font-family: 'Roboto Condensed', sans-serif
+		@include media-breakpoint-down(md)
+			font-size: 18px
+		@include media-breakpoint-down(xs)
+			font-size: 15px
+
+.infographics
+	padding: 60px 0 30px
+.infographics-list
+	display: grid
+	grid-template-columns: repeat(4, 1fr)
+	gap: 30px
+	@include media-breakpoint-down(md)
+		grid-template-columns: repeat(2, 1fr)
+	// &__item
+	&__number
+		display: flex
+		justify-content: center
+		align-items: center
+		font-weight: 700
+		width: 65px
+		height: 65px
+		border-radius: 50px
+		margin: 0 auto
+		background-color: $accent
+		color: #fff
+		margin-bottom: 30px
+		font-size: 18px
+		position: relative
+		font-family: 'Montserrat', sans-serif
+	&__line-small
+		position: absolute
+		display: block
+		width: 77px
+		height: 77px
+		background-image: url(../img/icons/visual/line-small.svg)
+		background-repeat: no-repeat
+		background-position: left center
+		background-size: contain
+		animation: inf-line-small linear 4s infinite
+		// animation-direction: alternate
+	&__line-big
+		position: absolute
+		display: block
+		width: 93px
+		height: 93px
+		background-image: url(../img/icons/visual/line-big.svg)
+		background-repeat: no-repeat
+		background-position: right center
+		background-size: contain
+		animation: inf-line-small linear 3s infinite reverse
+	&__title
+		text-align: center
+
+@keyframes inf-line-small
+	0%
+		transform: rotate(0)
+	100%
+		transform: rotate(360deg)
+
+.video-youtube
+	padding: 30px 0
+	position: relative
+.swiper-video-youtube
+	&__slide
+		height: 180px
+		border-radius: 8px
+		position: relative
+		overflow: hidden
+		cursor: pointer
+		&::before
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			margin: auto
+			width: 42px
+			height: 30px
+			z-index: 5
+			background-image: url(../img/icons/youtube-play.svg)
+			background-repeat: no-repeat
+			background-position: center
+		&::after
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			background-color: rgba($textcolor, .3)
+		&:hover
+			.swiper-video-youtube__cover
+				transform: scale(1.2)
+				transition: all .2s ease
+	&__cover
+		object-fit: cover
+		width: 100%
+		height: 100%
+		transition: all .2s ease
+		transform: scale(1.1)
+	&__link
+		position: absolute
+		z-index: 6
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0

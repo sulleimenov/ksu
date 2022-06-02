@@ -1,21 +1,19 @@
 import { $ } from 'jquery'
 import { gsap, Power2 } from 'gsap'
 import { Fancybox } from "@fancyapps/ui"
-import { Swiper, Pagination, Navigation, Autoplay } from 'swiper'
+import { Swiper, Pagination, Navigation, Autoplay, Scrollbar } from 'swiper'
 import { ScrollTrigger } from 'gsap/ScrollTrigger.js'
 import mixitup from 'mixitup'
 
 window.jQuery = $
 window.$ = $
 
-Swiper.use([Navigation, Pagination, Autoplay])
-
-//import vendor plugin example (not module)
-// require('~/app/libs/owl-carousel/owl.carousel.min.js')
+Swiper.use([Navigation, Pagination, Autoplay, Scrollbar])
 
 document.addEventListener('DOMContentLoaded', () => {
 	gsap.registerPlugin(ScrollTrigger)
 	gsap.config({ nullTargetWarn: false })
+	
 	// Анимация блоков на главной странице
 	function navigation() {
 		const tl = gsap.timeline({
@@ -78,24 +76,30 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
-	const tourBtn = document?.querySelectorAll('[data-role="tab"]');
-  const tourVisualBtn = document?.querySelectorAll(".tour__visual-item");
+	// const videoo = document?.querySelector('.infographics-grid__video')
+	// videoo.addEventListener('click', function () {
+	// 	this.requestFullscreen();
+	// 	this.prop("muted", true);
+	// });
 
-	tourBtn.forEach((tab) => {
-		tab.addEventListener("click", () => {
-			const target = document.querySelector(tab.dataset.target);
-			console.log(target);
-			tourVisualBtn.forEach((tc) => {
-				tc.classList.remove("active");
-			});
-			target.classList.add("active");
+	// const tourBtn = document?.querySelectorAll('[data-role="tab"]');
+  // const tourVisualBtn = document?.querySelectorAll(".tour__visual-item");
 
-			tourBtn.forEach((t) => {
-				t.classList.remove("active");
-			});
-			tab.classList.add("active");
-		});
-	});
+	// tourBtn.forEach((tab) => {
+	// 	tab.addEventListener("click", () => {
+	// 		const target = document.querySelector(tab.dataset.target);
+	// 		console.log(target);
+	// 		tourVisualBtn.forEach((tc) => {
+	// 			tc.classList.remove("active");
+	// 		});
+	// 		target.classList.add("active");
+
+	// 		tourBtn.forEach((t) => {
+	// 			t.classList.remove("active");
+	// 		});
+	// 		tab.classList.add("active");
+	// 	});
+	// });
 
 	// Скрытие анимации popup call center
 	function popupCallCenter() {
@@ -127,6 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}
 
+	// Слайдер на главной странице
 	const swiperAbout = new Swiper('.swiper-about', {
 		loop: false,
 		preloadImages: false,
@@ -141,6 +146,42 @@ document.addEventListener('DOMContentLoaded', () => {
 			prevEl: '.swiper-button-prev',
 		},
 	})
+
+	
+	setTimeout(() => {
+		const swiper = new Swiper('.swiper-video-youtube', {
+			loop: true,
+			slidesPerView: 3,
+			spaceBetween: 30,
+			centeredSlides: true,
+			observer: true,
+			observeSlideChildren: true,
+			autoplay: true,
+			scrollbar: {
+				el: '.swiper-scrollbar',
+			},
+			breakpoints: {
+				320: {
+					slidesPerView: 2,
+				},
+				576: {
+					slidesPerView: 2,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				992: {
+					slidesPerView: 4,
+				},
+				1200: {
+					slidesPerView: 5,
+				},
+				1400: {
+					slidesPerView: 6,
+				}
+			}
+		})
+	}, 600);
 
 	const swiperOffer = new Swiper('.swiper-offer', {
 		loop: false,
@@ -172,11 +213,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 	})
 	
-	let offerTitle = document.querySelectorAll('.offer__title')
-	let offerSubTitle = document.querySelectorAll('.offer__subtitle')
-	let offerButtonFirst = document.querySelectorAll('.offer__buttons-first')
-	let offerButtonSecond = document.querySelectorAll('.offer__buttons-second')
-	let offerButtonThree = document.querySelectorAll('.offer__buttons-three')
+	let offerTitle = document?.querySelectorAll('.offer__title')
+	let offerSubTitle = document?.querySelectorAll('.offer__subtitle')
+	let offerButtonFirst = document?.querySelectorAll('.offer__buttons-first')
+	let offerButtonSecond = document?.querySelectorAll('.offer__buttons-second')
+	let offerButtonThree = document?.querySelectorAll('.offer__buttons-three')
 
 	swiperOffer.on('slideChange', function () {
 		gsap.to(offerTitle, .2, {
@@ -257,6 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	})
 
+	// Аккардион навигации в мобильной версии
 	function accardions() {
 		const $accardions = document.querySelectorAll('.burger-content-menu__item')
 		$accardions.forEach((item) => {
@@ -273,6 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+	// Вызов меню на мобильной версии
 	function burgerButton() {
 		const $burgerBtn = document.querySelector('.header-top__burger-menu')
 		const $burgerContent = document.querySelector('.burger-content')
@@ -287,6 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+	// Поиск
 	function searchButton() {
 		const searchBtn = document.querySelector('.search')
 		const searchMobileBtn = document.querySelector('.header-top__nav-item--search')
@@ -304,22 +348,39 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	const number = document.querySelectorAll('.infographics-numbers__item > span');
-	const numberTop = number.getBoundingClientRect().top;
-	const	start = +number.innerHTML, end = +number.dataset.max;
+	function accardionMain() {
+		var Accordion = function (el, multiple) {
+			this.el = el || {}
+			this.multiple = multiple || false
 
-	window.addEventListener('scroll', function onScroll() {
-		console.log(numberTop);
-		if(window.pageYOffset > numberTop - window.innerHeight / 2) {
-			this.removeEventListener('scroll', onScroll);
-			var interval = setInterval(function() {
-				number.innerHTML = ++start;
-				if(start == end) {
-					clearInterval(interval);
-				}
-			}, 5);
-		}
-	});
+			// Variables privadas
+			var links = this.el.find('.link')
+			// Evento
+			links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+		};
+
+		Accordion.prototype.dropdown = function (e) {
+			var $el = e.data.el;
+			let $this;
+			let $next;
+			($this = $(this)), ($next = $this.next())
+
+			$next.slideToggle()
+			$this.parent().toggleClass('open')
+
+			if (!e.data.multiple) {
+				$el.find('.submenu').not($next).slideUp().parent().removeClass('open')
+			}
+		};
+
+		var accordion = new Accordion($('#accordion'), false);
+	}
+
+	function records() {
+		Fancybox.bind("[data-fancybox]", {
+			autoFocus: false
+		});
+	}
 
 	function infographics() {
 		let target_block = document.querySelector('.infographic') // Ищем блок
@@ -401,42 +462,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	function accardionMain() {
-		var Accordion = function (el, multiple) {
-			this.el = el || {}
-			this.multiple = multiple || false
-
-			// Variables privadas
-			var links = this.el.find('.link')
-			// Evento
-			links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
-		};
-
-		Accordion.prototype.dropdown = function (e) {
-			var $el = e.data.el;
-			let $this;
-			let $next;
-			($this = $(this)), ($next = $this.next())
-
-			$next.slideToggle()
-			$this.parent().toggleClass('open')
-
-			if (!e.data.multiple) {
-				$el.find('.submenu').not($next).slideUp().parent().removeClass('open')
-			}
-		};
-
-		var accordion = new Accordion($('#accordion'), false);
-	}
-
-	function records() {
-		Fancybox.bind("[data-fancybox]", {
-			autoFocus: false
-		});
-	}
-
 	// init
-
 	// popupCallCenter()
 	navigation()
 	dissertationBoardDocs()

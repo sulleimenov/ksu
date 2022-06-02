@@ -50,6 +50,52 @@
 		</div>
 	</footer>
 	
+	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 	<script src="js/app.min.js"></script>
+	<script type="text/babel">
+		const { useState, useEffect } = React
+
+		const App = () => {
+			const [items, setItems] = useState([])
+			const [isLoaded, setIsLoaded] = useState(false)
+
+			useEffect(() => {
+				fetch('video.json')
+					.then((response) => {
+						return response.json()
+					})
+					.then((data) => {
+						setIsLoaded(true)
+						setItems(data.videos)
+					})
+			}, [])
+			console.log(items);
+			return (
+				<div className="video-youtube">
+					<div className="swiper swiper-video-youtube">
+						<div className="swiper-wrapper">
+							{isLoaded ?
+								items.map((obj, index) => (
+									<div className="swiper-slide swiper-video-youtube__slide" key={index}>
+										<img className="swiper-video-youtube__cover" src={obj.snippet.thumbnails.high.url} alt="alt" />
+										<a className="swiper-video-youtube__link" href={ `https://www.youtube.com/watch?v=` + obj.snippet.resourceId.videoId} data-fancybox></a>
+									</div>
+								)) 
+								:
+								<div>Загрузка...</div>
+							}
+						</div>
+
+						<div className="swiper-scrollbar"></div>
+					</div>
+				</div>
+			)
+		}
+
+		const root = ReactDOM.createRoot(document.getElementById('video_youtube'))
+		root.render(<App />)
+	</script>
 </body>
 </html>

@@ -3,3 +3,4 @@ remote
 dist
 .vscode
 yarn.lock
+app/video

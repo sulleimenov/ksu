@@ -351,7 +351,7 @@
 	@include media-breakpoint-down(lg)
 		grid-auto-rows: 400px
 	@include media-breakpoint-down(xs)
-		grid-auto-rows: 250px
+		grid-auto-rows: 200px
 	&__video
 		grid-column-start: 1
 		grid-column-end: 3
@@ -427,8 +427,11 @@
 		@include media-breakpoint-down(md)
 			grid-column-start: auto
 			grid-column-end: auto
+		@include media-breakpoint-down(xs)
+			grid-column-start: span 2
 		&--smart
 			background-color: #00A2C3
+			
 	&__tour-image
 		position: absolute
 		top: 0
@@ -525,6 +528,7 @@
 .video-youtube
 	padding: 30px 0
 	position: relative
+	overflow: hidden
 .swiper-video-youtube
 	&__slide
 		height: 180px

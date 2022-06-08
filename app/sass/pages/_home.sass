@@ -4,9 +4,16 @@
 		justify-content: space-between
 		align-items: center
 		border-bottom: 1px solid #F6F6F6
+		@include media-breakpoint-down(xs)
+			flex-direction: column
+			align-items: normal
+			border-bottom: none
 	&__header-tabs
 		display: flex
 		column-gap: 30px
+		@include media-breakpoint-down(xs)
+			justify-content: space-between
+			margin-bottom: 30px
 	&__header-tab
 		background-color: transparent
 		border: none
@@ -26,10 +33,7 @@
 				background-color: $accent
 	// &__header-links
 	&__header-link
-		// padding: 10px 0
 		border-bottom: 1px solid $textcolor
-		&:not(.is-active)
-			display: none
 	&__body
 		padding: 30px 0
 	&__lists
@@ -142,6 +146,8 @@
 	display: grid
 	grid-template-columns: repeat(2, 1fr)
 	gap: 30px
+	@include media-breakpoint-down(sm)
+		grid-template-columns: repeat(1, 1fr)
 	&__item
 		position: relative
 		border-radius: $radius
@@ -165,6 +171,8 @@
 	display: grid
 	grid-template-columns: repeat(2, 1fr)
 	gap: 30px
+	@include media-breakpoint-down(sm)
+		grid-template-columns: repeat(1, 1fr)
 	&__item
 		position: relative
 		padding: 20px
@@ -210,6 +218,7 @@
 		position: relative
 		display: flex
 		align-items: center
+		justify-content: center
 		column-gap: 20px
 		background-color: #fff
 		+shadow-bg
@@ -219,6 +228,8 @@
 	&__image
 		display: flex
 		align-items: center
+	&__title
+		text-align: center
 	&__link
 		display: flex
 		align-items: center
@@ -378,6 +389,20 @@
 		font-size: 21px
 		z-index: 10
 		font-family: 'Roboto Condensed', sans-serif
+		span
+			position: relative
+			&::before
+				content: '\201C'
+				font-size: 35px
+				position: absolute
+				top: -15px
+				left: -25px
+			&::after
+				content: '\201E'
+				font-size: 35px
+				position: absolute
+				right: -25px
+				bottom: -15px
 		@include media-breakpoint-down(lg)
 			left: 6%
 			font-size: 18px

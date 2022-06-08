@@ -76,6 +76,18 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
+	const mixitupContainerTitle = document?.querySelector('.news__header-links')
+	let mixerTitle = mixitup(mixitupContainerTitle, {
+		"animation": {
+			"duration": 100,
+			"nudge": false,
+			"reverseOut": false,
+			"effects": ""
+		}
+	});
+
+
+
 	// const videoo = document?.querySelector('.infographics-grid__video')
 	// videoo.addEventListener('click', function () {
 	// 	this.requestFullscreen();
@@ -101,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	// 	});
 	// });
 
-	// Скрытие анимации popup call center
+	// Скрытие анимации popup call centerЦ
 	function popupCallCenter() {
 		setTimeout(() => {
 			document.querySelector('.popup-call').classList.remove('show')

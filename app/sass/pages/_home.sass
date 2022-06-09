@@ -109,16 +109,16 @@
 		padding-bottom: 18px
 	&__lists-published
 		display: flex
-		column-gap: 45px
+		column-gap: 25px
 		span
 			position: relative
 			&:first-child
 				&::after
 					content: ''
-					width: 25px
+					width: 10px
 					height: 1px
 					top: 7px
-					right: -35px
+					right: -17px
 					background-color: $gray-ligth
 					position: absolute
 	&__lists-views
@@ -221,7 +221,7 @@
 		justify-content: center
 		column-gap: 20px
 		background-color: #fff
-		+shadow-bg
+		box-shadow: 0 24px 62px rgb(22 28 45 / 7%)
 		border-radius: $radius
 		padding: 12px 15px
 		height: 80px
@@ -432,20 +432,6 @@
 		font-size: 21px
 		z-index: 10
 		font-family: 'Roboto Condensed', sans-serif
-		span
-			position: relative
-			&::before
-				content: '\201C'
-				font-size: 35px
-				position: absolute
-				top: -15px
-				left: -25px
-			&::after
-				content: '\201E'
-				font-size: 35px
-				position: absolute
-				right: -25px
-				bottom: -15px
 		@include media-breakpoint-down(lg)
 			left: 6%
 			font-size: 18px
@@ -533,7 +519,6 @@
 		color: #fff
 		font-size: 21px
 		text-align: center
-		font-family: 'Roboto Condensed', sans-serif
 		@include media-breakpoint-down(md)
 			font-size: 18px
 		@include media-breakpoint-down(xs)
@@ -572,7 +557,7 @@
 		background-repeat: no-repeat
 		background-position: left center
 		background-size: contain
-		animation: inf-line-small linear 4s infinite
+		animation: inf-line-small linear 6s infinite
 		// animation-direction: alternate
 	&__line-big
 		position: absolute
@@ -583,7 +568,7 @@
 		background-repeat: no-repeat
 		background-position: right center
 		background-size: contain
-		animation: inf-line-small linear 3s infinite reverse
+		animation: inf-line-small linear 5s infinite reverse
 	&__title
 		text-align: center
 

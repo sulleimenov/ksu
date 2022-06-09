@@ -76,6 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
+	const mixBtm = document.querySelector('[data-filter=".news-mix"]')
+	setTimeout(() => {
+		mixBtm.classList.add('mixitup-control-active')
+	}, 100);
+
 	const mixitupContainerTitle = document?.querySelector('.news__header-links')
 	let mixerTitle = mixitup(mixitupContainerTitle, {
 		"animation": {
@@ -85,33 +90,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			"effects": ""
 		}
 	});
-
-
-
-	// const videoo = document?.querySelector('.infographics-grid__video')
-	// videoo.addEventListener('click', function () {
-	// 	this.requestFullscreen();
-	// 	this.prop("muted", true);
-	// });
-
-	// const tourBtn = document?.querySelectorAll('[data-role="tab"]');
-  // const tourVisualBtn = document?.querySelectorAll(".tour__visual-item");
-
-	// tourBtn.forEach((tab) => {
-	// 	tab.addEventListener("click", () => {
-	// 		const target = document.querySelector(tab.dataset.target);
-	// 		console.log(target);
-	// 		tourVisualBtn.forEach((tc) => {
-	// 			tc.classList.remove("active");
-	// 		});
-	// 		target.classList.add("active");
-
-	// 		tourBtn.forEach((t) => {
-	// 			t.classList.remove("active");
-	// 		});
-	// 		tab.classList.add("active");
-	// 	});
-	// });
 
 	// Скрытие анимации popup call centerЦ
 	function popupCallCenter() {
@@ -394,86 +372,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}
 
-	function infographics() {
-		let target_block = document.querySelector('.infographic') // Ищем блок
-
-		if (target_block.length === 0) {
-			return
-		}
-
-		// запоминаем начальные значения
-		let textt1 = document.querySelector('.count1').textContent
-		let textt2 = document.querySelector('.count2').textContent
-		let textt3 = document.querySelector('.count3').textContent
-		let textt4 = document.querySelector('.count4').textContent
-
-		let blockStatus = true
-
-		window.addEventListener('scroll', function () {
-			let targetTop = target_block.offsetTop
-			let targetBottom = targetTop + target_block.offsetHeight
-			console.log(target_block.offsetHeight);
-			let screenTop = window.offsetTop
-			let screenBottom = screenTop + window.innerHeight
-
-			let onScreen = false
-			if (screenBottom > targetTop && screenTop < targetBottom) {
-				onScreen = true
-			}
-
-			if (onScreen && blockStatus) {
-				blockStatus = false // Запрещаем повторное выполнение функции до следующей перезагрузки страницы.
-
-				$({ numberValue: 0 }).animate(
-					{ numberValue: textt1 },
-					{
-						duration: 900, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
-						easing: 'linear',
-						step: function (val) {
-							$('.count1').html(Math.ceil(val)) // Блок, где необходимо сделать анимацию
-						},
-					}
-				)
-
-				$({ numberValue: 0 }).animate(
-					{ numberValue: textt2 },
-					{
-						duration: 900, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
-						easing: 'linear',
-						step: function (val) {
-							$('.count2').html(Math.ceil(val)) // Блок, где необходимо сделать анимацию
-						},
-					}
-				)
-
-				$({ numberValue: 0 }).animate(
-					{ numberValue: textt3 },
-					{
-						duration: 900, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
-						easing: 'linear',
-						step: function (val) {
-							$('.count3').html(Math.ceil(val)) // Блок, где необходимо сделать анимацию
-						},
-					}
-				)
-
-				$({ numberValue: 0 }).animate(
-					{ numberValue: textt4 },
-					{
-						duration: 900, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
-						easing: 'linear',
-						step: function (val) {
-							$('.count4').html(Math.ceil(val)) // Блок, где необходимо сделать анимацию
-						},
-					}
-				)
-			}
-			if (!onScreen) {
-				blockStatus = true
-			}
-		})
-	}
-
 	// init
 	// popupCallCenter()
 	navigation()
@@ -481,7 +379,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	accardions()
 	burgerButton()
 	searchButton()
-	// infographics()
 	accardionMain()
 	records()
 

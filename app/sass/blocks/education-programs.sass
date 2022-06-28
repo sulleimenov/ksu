@@ -1,0 +1,56 @@
+.educational-programs
+	&__header
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		gap: 15px
+		@include media-breakpoint-down(md)
+			grid-template-columns: repeat(2, 1fr)
+	&__input-group
+
+	&__body
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		gap: 15px
+		@include media-breakpoint-down(lg)
+			grid-template-columns: repeat(2, 1fr)
+		@include media-breakpoint-down(xs)
+			grid-template-columns: repeat(1, 1fr)
+	&__item
+		position: relative
+		padding: 10px
+		position: relative
+		box-shadow: 0 24px 62px rgb(22 28 45 / 9%)
+		border-radius: 5px
+		&:hover
+			.educational-programs__popup
+				opacity: 1
+				visibility: visible
+				transform: translateY(0)
+	&__title
+	&__popup
+		position: absolute
+		bottom: 75px
+		width: 400px
+		left: 0
+		opacity: 0
+		visibility: hidden
+		background-color: #fff
+		z-index: 10
+		padding: 15px
+		box-shadow: 0 24px 62px rgb(22 28 45 / 9%)
+		border-radius: 5px
+		transition: all .2s ease
+		transform: translateY(20px)
+		&::after
+			content: ''
+			position: absolute
+			left: 70px
+			bottom: -41px
+			border: 27px solid transparent
+			border-top: 15px solid #fff
+	&__popup-item
+		color: $gray
+		&:not(:last-child)
+			margin-bottom: 13px
+		span
+			color: $textcolor

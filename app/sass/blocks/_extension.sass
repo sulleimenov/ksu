@@ -38,6 +38,22 @@
 		font-size: 12px
 		color: #ababab
 
+.youtube-play
+	position: relative
+	&::after
+		content: ''
+		position: absolute
+		background-image: url(../img/icons/youtube-play.svg)
+		background-repeat: no-repeat
+		background-position: center
+		width: 42px
+		height: 30px
+		left: 0
+		right: 0
+		margin: 0 auto
+		top: 50%
+		transform: translateY(-50%)
+
 .current
 	background-color: $blueLink!important
 	color: #fff!important

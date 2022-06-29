@@ -35,7 +35,7 @@
 		margin-bottom: 50px
 	&-category__item
 		padding: 8px 15px
-		border-radius: 3px
+		border-radius: $radius-sm
 		background-color: #f2f2f2
 		margin-right: 8px
 		margin-bottom: 10px
@@ -59,7 +59,7 @@
 .page-news-box
 	@include media-breakpoint-down(md)
 		gap: 5px
-	
+
 .page-news-list
 	&__item
 		display: flex
@@ -79,7 +79,7 @@
 		margin-left: 35px
 		min-width: 220px
 		height: 140px
-		border-radius: 3px
+		border-radius: $radius-sm
 	&__title
 		display: block
 		color: $textcolor
@@ -108,7 +108,7 @@
 		&>a:visited
 			position: relative
 			display: inline-block
-			border-radius: 3px
+			border-radius: $radius-sm
 			padding: .02rem .3rem
 			border: 1px solid rgba(0, 122, 197, 0.3)
 			margin: 0 .32rem 0 0
@@ -123,7 +123,6 @@
 		&>a:visited:hover
 			border: 1px solid #007AC5
 			color: #db960a
-
 
 .page-news-category__item--active
 	background-color: #FFE0A3
@@ -168,7 +167,7 @@
 		padding-top: 1px
 		color: $accent
 		@include shadow
-		border-radius: 3px
+		border-radius: $radius-sm
 
 .page-news-contacts
 	position: relative

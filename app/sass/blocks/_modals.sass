@@ -1,4 +1,4 @@
-.modal-search 
+.modal-search
 	position: fixed
 	top: 0
 	z-index: 9
@@ -8,9 +8,9 @@
 	background-color: rgba(#000, 0.3)
 	transform: translateY(-100%)
 	z-index: 12
-	&--active 
-		transform: translateY(0) 
-	&_wrapper 
+	&--active
+		transform: translateY(0)
+	&_wrapper
 		position: fixed
 		z-index: 12
 		top: 0
@@ -23,10 +23,10 @@
 		justify-content: space-around
 		transform: translateY(-70px)
 		transition: all 0.2s ease
-		&--active 
+		&--active
 			display: flex
 			transform: translateY(0)
-	&_input 
+	&_input
 		background: transparent
 		border: none
 		border-bottom: 1px solid #d6d6d6
@@ -34,7 +34,7 @@
 		width: 500px
 		font-size: 16px
 		font-family: $userfont
-	&_close 
+	&_close
 		width: 50px
 		height: 50px
 		display: flex
@@ -42,23 +42,23 @@
 		justify-content: center
 		cursor: pointer
 		transition: all 0.2s ease
-		border-radius: 5px
-		span 
+		border-radius: $radius-sm
+		span
 			position: absolute
 			width: 20px
 			height: 2px
 			background: #000
-			transform: rotate(45deg) 
-		span:last-child 
+			transform: rotate(45deg)
+		span:last-child
 			width: 20px
 			height: 2px
 			background: #000
-			transform: rotate(-45deg)  
-	&_img 
-		width: 15px 
-	&_inner 
+			transform: rotate(-45deg)
+	&_img
+		width: 15px
+	&_inner
 		display: flex
 		align-items: center
-		img 
+		img
 			margin: 0 20px
 			margin-bottom: 1px

@@ -12,7 +12,7 @@
 		margin-right: 15px
 		color: $accent
 	&__item
-		border-radius: 5px
+		border-radius: $radius-sm
 		@include shadow
 		width: 49%
 		margin-bottom: 20px
@@ -53,7 +53,7 @@
 .sidebar
 	font-size: 14px
 	background-color: #fff
-	border-radius: 5px
+	border-radius: $radius-sm
 	width: 350px
 	height: 600px
 	overflow-Y: auto
@@ -107,7 +107,7 @@
 			height: 40px
 			background: url($uri+'icons/clip.svg') center center no-repeat
 			background-color: $accent
-			border-radius: 5px
+			border-radius: $radius-sm
 			border-top-left-radius: 0
 			border-bottom-left-radius: 0
 	&-button--close
@@ -116,7 +116,6 @@
 	&--is-active
 		transform: translateX(0)
 		transition: all 0.3s ease
-
 
 // .word, .pdf, .ppt, .excel, .link, .phone
 //   padding: 7px 0 5px 20px

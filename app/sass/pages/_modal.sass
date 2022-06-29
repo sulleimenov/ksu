@@ -2,14 +2,14 @@
 	margin-bottom: 20px
 	background-color: #ff2b42
 	padding: 10px 0
-	border-radius: 4px
+	border-radius: $radius-sm
 	font-size: 21px
 	a
 		color: #fff
 
 .video-engineer
 	padding: 0
-	border-radius: 5px
+	border-radius: $radius-sm
 	width: 850px
 	height: 480px
 	overflow: hidden
@@ -22,7 +22,7 @@
 	position: relative
 	color: #000
 	padding: 60px 60px 60px 190px
-	border-radius: 4px
+	border-radius: $radius-sm
 	cursor: default
 	display: flex
 	&::after
@@ -68,7 +68,7 @@
 		display: block
 	&__title
 		display: inline-block
-		border-radius: 10px
+		border-radius: $radius
 		background-color: #d34937
 		padding: 15px 10px 10px 10px
 		font-size: 36px
@@ -134,7 +134,7 @@
 	overflow: hidden
 	font-family: 'Montserrat', sans-serif
 	position: relative
-	border-radius: 4px
+	border-radius: $radius-sm
 	background: #fff url($uri+'window/call-woman.png') top 145px left no-repeat
 	&__link
 		display: flex
@@ -196,7 +196,6 @@
 		left: -26px
 		width: 1000px
 
-
 @media (max-width: 768px)
 	.call-modal
 		background-image: none
@@ -235,7 +234,6 @@
 		max-width: 130px
 		text-align: center
 		padding-left: 0
-
 
 	.call-modal__text
 		padding: 0 40px

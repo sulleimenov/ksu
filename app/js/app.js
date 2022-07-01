@@ -14,6 +14,42 @@ document.addEventListener('DOMContentLoaded', () => {
 	gsap.registerPlugin(ScrollTrigger);
 	gsap.config({ nullTargetWarn: false });
 
+	// Lazyload
+	const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
+	const loadMapBlock = document.querySelector('.load-map');
+	const windowHeight = document.documentElement.clientHeight;
+
+	let lazyImagesPositions = [];
+	if (lazyImages.length > 0) {
+		lazyImages.forEach((img) => {
+			if (img.dataset.src || img.dataset.srcset) {
+				lazyImagesPositions.push(img.getBoundingClientRect().top + pageYOffset);
+			}
+		});
+	}
+
+	window.addEventListener('scroll', lazyScroll);
+
+	function lazyScroll() {
+		if (document.querySelectorAll('img[data-src], source[data-srcset').length > 0) {
+			lazyLoadCheck();
+		}
+	}
+
+	function lazyLoadCheck() {
+		let imgIndex = lazyImagesPositions.findIndex((item) => pageYOffset > item - windowHeight);
+		if (imgIndex >= 0) {
+			if (lazyImages[imgIndex].dataset.src) {
+				lazyImages[imgIndex].src = lazyImages[imgIndex].dataset.src;
+				lazyImages[imgIndex].removeAttribute('data-src');
+			} else if (lazyImages[imgIndex].dataset.srcset) {
+				lazyImages[imgIndex].srcset = lazyImages[imgIndex].dataset.srcset;
+				lazyImages[imgIndex].removeAttribute('data-srcset');
+			}
+			delete lazyImagesPositions[imgIndex];
+		}
+	}
+
 	// Анимация блоков на главной странице
 	function navigation() {
 		const tl = gsap.timeline({
@@ -79,12 +115,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Дис совет - показ документов
 	function dissertationBoardDocs() {
-		const buttonDocs = document.querySelectorAll(
-			'.announcements-dissertation__button-docs'
-		);
-		const buttonDocsContent = document.querySelectorAll(
-			'.announcements-dissertation__docs'
-		);
+		const buttonDocs = document.querySelectorAll('.announcements-dissertation__button-docs');
+		const buttonDocsContent = document.querySelectorAll('.announcements-dissertation__docs');
 
 		buttonDocs.forEach((item) => {
 			item.addEventListener('click', (event) => {
@@ -304,9 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Поиск
 	function searchButton() {
 		const searchBtn = document.querySelector('.search');
-		const searchMobileBtn = document.querySelector(
-			'.header-top__nav-item--search'
-		);
+		const searchMobileBtn = document.querySelector('.header-top__nav-item--search');
 		const searchContent = document.querySelector('.search-box');
 		const searchInput = document.querySelector('.search-form__input');
 

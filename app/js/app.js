@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}
 
-	// Скрытие анимации popup call centerЦ
+	// Скрытие анимации popup call center
 	function popupCallCenter() {
 		setTimeout(() => {
 			document.querySelector('.popup-call').classList.remove('show');
@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 	});
 
+	// Слайдер с видео youtube на главной станице
 	setTimeout(() => {
 		const swiper = new Swiper('.swiper-video-youtube', {
 			loop: true,
@@ -151,6 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}, 600);
 
+	// Слайдер Offer на главной странице
 	const swiperOffer = new Swiper('.swiper-offer', {
 		loop: false,
 		preloadImages: false,
@@ -181,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 	});
 
+	// Анимация элементов слайдера Offer
 	let offerTitle = document?.querySelectorAll('.offer__title');
 	let offerSubTitle = document?.querySelectorAll('.offer__subtitle');
 	let offerButtonFirst = document?.querySelectorAll('.offer__buttons-first');
@@ -268,13 +271,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Аккардион навигации в мобильной версии
 	function accardions() {
-		const $accardions = document.querySelectorAll('.burger-content-menu__item');
-		$accardions.forEach((item) => {
+		const accardions = document.querySelectorAll('.burger-content-menu__item');
+		accardions.forEach((item) => {
 			item.addEventListener('click', function () {
 				if (this.classList.contains('active')) {
 					this.classList.remove('active');
 				} else {
-					$accardions.forEach((link) => {
+					accardions.forEach((link) => {
 						link.classList.remove('active');
 					});
 					this.classList.add('active');
@@ -285,15 +288,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Вызов меню на мобильной версии
 	function burgerButton() {
-		const $burgerBtn = document.querySelector('.header-top__burger-menu');
-		const $burgerContent = document.querySelector('.burger-content');
-		$burgerBtn.addEventListener('click', function () {
+		const burgerBtn = document.querySelector('.header-top__burger-menu');
+		const burgerContent = document.querySelector('.burger-content');
+		burgerBtn.addEventListener('click', function () {
 			if (this.classList.contains('active')) {
 				this.classList.remove('active');
-				$burgerContent.classList.remove('active');
+				burgerContent.classList.remove('active');
 			} else {
 				this.classList.add('active');
-				$burgerContent.classList.add('active');
+				burgerContent.classList.add('active');
 			}
 		});
 	}
@@ -309,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		searchBtn.addEventListener('click', function () {
 			searchContent.classList.toggle('show');
-			this.toggle('search--close');
+			this.classList.toggle('search--close');
 			searchInput.focus();
 		});
 		searchMobileBtn.addEventListener('click', function () {
@@ -318,61 +321,34 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}
 
+	// Новости - Табы
 	const mixitupContainer = document?.querySelector('.news__body');
-	let mixer = mixitup(mixitupContainer, {
-		animation: {
-			duration: 100,
-			nudge: false,
-			reverseOut: false,
-			effects: '',
-		},
-	});
-
-	const mixBtm = document?.querySelector('[data-filter=".news-mix"]');
-	setTimeout(() => {
-		mixBtm.classList.add('mixitup-control-active');
-	}, 100);
+	if (mixitupContainer) {
+		let mixer = mixitup(mixitupContainer, {
+			animation: {
+				duration: 100,
+				nudge: false,
+				reverseOut: false,
+				effects: '',
+			},
+		});
+		const mixBtm = document?.querySelector('[data-filter=".news-mix"]');
+		setTimeout(() => {
+			mixBtm.classList.add('mixitup-control-active');
+		}, 100);
+	}
 
 	const mixitupContainerTitle = document?.querySelector('.news__header-links');
-	let mixerTitle = mixitup(mixitupContainerTitle, {
-		animation: {
-			duration: 100,
-			nudge: false,
-			reverseOut: false,
-			effects: '',
-		},
-	});
 
-	function accardionMain() {
-		var Accordion = function (el, multiple) {
-			this.el = el || {};
-			this.multiple = multiple || false;
-
-			// Variables privadas
-			var links = this.el.find('.link');
-			// Evento
-			links.on(
-				'click',
-				{ el: this.el, multiple: this.multiple },
-				this.dropdown
-			);
-		};
-
-		Accordion.prototype.dropdown = function (e) {
-			var $el = e.data.el;
-			let $this;
-			let $next;
-			($this = $(this)), ($next = $this.next());
-
-			$next.slideToggle();
-			$this.parent().toggleClass('open');
-
-			if (!e.data.multiple) {
-				$el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-			}
-		};
-
-		var accordion = new Accordion($('#accordion'), false);
+	if (mixitupContainerTitle) {
+		let mixerTitle = mixitup(mixitupContainerTitle, {
+			animation: {
+				duration: 100,
+				nudge: false,
+				reverseOut: false,
+				effects: '',
+			},
+		});
 	}
 
 	function records() {
@@ -388,27 +364,5 @@ document.addEventListener('DOMContentLoaded', () => {
 	accardions();
 	burgerButton();
 	searchButton();
-	accardionMain();
 	records();
-
-	$('img').parent().addClass('img-link');
-
-	$('.header__burger').click(function () {
-		$('.menu').toggleClass('active');
-		$('.header__burger').toggleClass('active');
-		$('body').toggleClass('lock');
-	});
-
-	$('.sidebar__list>p>a').click(function () {
-		$('html, body').animate(
-			{
-				scrollTop: $($(this).attr('href')).offset().top + 'px',
-			},
-			{
-				duration: 600,
-				easing: 'swing',
-			}
-		);
-		return false;
-	});
 });
